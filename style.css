@@ -1,0 +1,113 @@
+body{
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.recipe-container{
+    display:flex;
+    flex-direction: column;
+    background-color:white;
+    width:550px;
+    align-items: center;
+    border-radius: 8px;
+
+
+}
+
+.recipe-img img{
+    margin-top:15px;
+    border-radius: 8px;
+    width:500px;
+}
+
+
+
+.recipe-details{
+    display: flex;
+    flex-direction: column;
+    width:500px;
+}
+
+.heading{
+    font-family: Young serif, Arial;
+    font-weight: 700;
+    color:hsl(24, 5%, 18%);
+    font-size:24px;
+    margin-bottom:20px;
+}
+
+.speciality{
+    font-family:Outfit, Arial;
+    font-weight: 400;
+    color:hsl(30, 10%, 34%);
+    margin-top:0;
+}
+
+.time{
+    background-color:  hsl(330, 100%, 98%);
+    font-family:Outfit, Arial;
+    padding-left:18px;
+}
+.time p{
+    color:hsl(332, 51%, 32%);
+    font-weight: 700;
+}
+
+
+.time ul li {
+    font-weight: 400;
+}
+
+.ingredients p,
+.instructions p,
+.newpara{
+    font-family:Young serif, Arial;
+    font-size:22px;
+    color:hsl(14, 45%, 36%);
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.ingredients ul,
+.instructions ol,
+.newpara2,
+.col1{
+    color:hsl(30, 10%, 34%);
+    font-weight: 400;
+    font-family:Outfit, Arial
+}
+
+.time ul span,
+.instructions span
+{
+    font-weight: 500;
+    color:hsl(24, 5%, 18%);
+    
+    
+}
+
+.col2{
+    color:hsl(14, 45%, 36%);
+    font-weight: 600;
+    padding-left:150px;
+}
+
+.instructions,
+.ingredients,
+td{
+    border-bottom: 1px solid hsl(30, 10%, 34%);
+}
+
+
+.instructions span{
+    margin-left:5px;
+}
+
+table{
+    margin-left:30px;
+}
+
+.instructions ol li{
+    margin-bottom: 10px ;
+}
